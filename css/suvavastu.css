@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+img{
+    width: 100%;
+    height: 600px;
+    filter: opacity(70%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
+    border-top: 2px solid blue;
+    border-bottom: 25px solid green;
+}*/
+
+.bannerImage{
+    width: 100%;
+    height: 800px;
+    filter: opacity(50%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
+    border-top: 2px solid blue;
+    border-bottom: 25px solid green;
+}
+
+.borderNone{
+    border: none;
+}
+
+
+.feelTheSpace{
+    height: 1000px;
+    border: 2px solid blue;
+}
+.feelTheSpace2{
+    height: 1000px;
+    border: 2px solid green;
+}
+
+.aboutMe{
+    margin-top: -25%;
+    margin-left: 45%;
+}
+
+.sidebarTop{
+    margin-top: -85%;
+}
+
+.image-responsive{
+    width: 100%;
+    height: 500px;
+}
+
+.socialMenuHeader{
+    width: 100%;
+    height: 40px;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+/*
+#myAccordion .card-header:nth-child(2n+0){
+    background-color: gray;
+}
+
+#myAccordion .card-header:nth-child(2n+1){
+    background-color: gray;
+}
+*/
+
+.text-shadow{
+    text-shadow: 0px 0px 4px;
+}
+
+.sliderDownMenuStyle{
+    font-size: 11.5px;
+    border-bottom: 2px solid gray;
+    text-shadow: 1px 0px 4px;
+    text-transform: uppercase;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-transfrom{
+    background: linear-gradient(to right,orange,green);
+}
+#mainMenu ul li{
+    font-size: 11.85px;
+    text-shadow:0px 0px 2px;
+    text-transform: uppercase;
+}
+
+.secondUl ul li{
+    font-size: 11.85px;
+    text-shadow:0px 0px 2px;
+    text-transform: uppercase;
+
+}
+.secondUl ul li a{
+     color: orange;
+}
+.siteHeader{
+    background-color: white;
+    height: 45px;
+    border-radius: 8px;
+    border-bottom: 2px solid green;
+    border-top: 2px solid orange;
+}
+.siteHeader h4{
+    text-shadow: 1px 1px 4px;
+}
+
+.card{
+    box-shadow: 0px 1px 6px;
+}
+
+.fa-upload{
+    font-size: 30px;
+    padding-right: 5px;
+}
